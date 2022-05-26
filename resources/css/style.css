@@ -1,0 +1,25 @@
+#bgnav{
+    /* background-color:#4C3B00 !important; */
+    background-color: rgba(59, 36, 0, 0.947);
+    color: #d4af37 !important;
+    height: auto;
+}
+
+#logo{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.nav-link {
+    color: #d4af37 !important;
+}
+
+.footer{
+	display:block;
+	width:100%;
+	text-align:left;
+    height: 100px;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    background-image:url(resources/images/image-asset.jpeg);
+}
