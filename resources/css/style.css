@@ -1,8 +1,7 @@
 #bgnav{
     /* background-color:#4C3B00 !important; */
     background-color: rgba(59, 36, 0, 0.947);
-    color: #d4af37 !important;
-    height: auto;
+    
 }
 
 #logo{
@@ -15,11 +14,26 @@
 }
 
 .footer{
-	display:block;
-	width:100%;
+	display: block;
+	width: 100%;
 	text-align:left;
     height: 100px;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
-    background-image:url(resources/images/image-asset.jpeg);
+    background-color: rgba(59, 36, 0, 0.947);    
+}
+
+.whole_container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+}
+.about_us{
+    margin-left: 400px;
+}
+.card{
+    box-shadow: 5px #d4af37 !important;
+}
+img{
+    width: 100%;
 }
