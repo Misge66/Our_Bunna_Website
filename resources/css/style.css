@@ -1,3 +1,25 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main_container .collapse ul li{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main_container{
+    background-image: url(C:\Users\misge\desktop\Dev\GenerationUSA\First_VS_Code_Project\resources\images\camp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+
 #bgnav{
     /* background-color:#4C3B00 !important; */
     background-color: rgba(59, 36, 0, 0.947);
@@ -23,17 +45,29 @@
     background-color: rgba(59, 36, 0, 0.947);    
 }
 
-.whole_container{
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #ffffff;
-}
 .about_us{
     margin-left: 400px;
 }
 .card{
     box-shadow: 5px #d4af37 !important;
+    margin: 30px;
 }
 img{
     width: 100%;
 }
+
+.form{
+    margin-left: auto;
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.textinput{
+    background-color:white;
+    width: 300px;
+    box-shadow:2px 2px 5px 4px black;
+    font-size: 22px;
+}
+
