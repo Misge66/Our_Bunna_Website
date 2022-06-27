@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 .main_container .collapse ul li{
     font-size: 20px;
@@ -12,17 +18,33 @@
 }
 
 .main_container{
-    background-image: url(C:\Users\misge\desktop\Dev\GenerationUSA\First_VS_Code_Project\resources\images\camp.jpg);
+    /*background-image: url(/resources/images/5.jpg); */
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-color: #ffffff;
     height: 100%;
 }
 
 
+/*
+#navbarTogglerDemo03{
+    // background-color: black;
+}
+
+.container-fluid{
+}
+*/
+
+
+
 #bgnav{
-    /* background-color:#4C3B00 !important; */
-    background-color: rgba(59, 36, 0, 0.947);
+    
+    border-bottom: 1px solid black;
+    background-image: url(/resources/images/51.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* background-color: rgba(59, 36, 0, 0.947); */
     
 }
 
@@ -48,12 +70,27 @@
 .about_us{
     margin-left: 400px;
 }
+
 .card{
-    box-shadow: 5px #d4af37 !important;
-    margin: 30px;
+    text-align: center;
+    border: 2px solid white !important;
 }
+
+.card-footer{
+    text-align: center;
+    background: none !important;
+}
+
+.text-muted{
+    text-decoration: none;
+}
+
+
 img{
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
 }
 
 .form{
@@ -63,6 +100,7 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
 
 .textinput{
     background-color:white;
