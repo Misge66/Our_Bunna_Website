@@ -17,6 +17,7 @@ html{
 
 #bgnav{
     /* border: 2px solid black; */
+    position: sticky;
     height: 50px;
     background-image: linear-gradient(220deg, #eef0ef 80%, #3e2c2c 50%); 
     z-index: 3;  
@@ -30,7 +31,6 @@ html{
 
 #logo{
     color: white;
-    /* font-size: 17px; */
     font-size: 23px;
     font-family: 'Italianno', cursive;
     /* font-family: 'Lobster', cursive; */
