@@ -30,8 +30,10 @@ html{
 
 #logo{
     color: white;
-    font-size: 18px;
-    font-family: 'Lobster', cursive;
+    /* font-size: 17px; */
+    font-size: 23px;
+    font-family: 'Italianno', cursive;
+    /* font-family: 'Lobster', cursive; */
 }
 
 #navbarNav{
@@ -76,7 +78,7 @@ html{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
 }
 
 /* .container-fluid{
@@ -90,8 +92,14 @@ html{
 }
 
 .heading{
+    /* border: 2px solid rgb(89, 89, 72); */
+    font-size: 20px;
+    background-color: #a88513;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    text-transform: uppercase;
     text-align: center;
-    margin-top: 100px;
+    padding: 30px;
 }
 /* heading */
 
@@ -99,13 +107,44 @@ html{
 
 
 .main_container{
-    /*background-image: url(/resources/images/5.jpg); */
+    background-image: url("../images/Coffee_Beans/coffee-cup-shape-in-coffee-beans-free-photo.jpg");
+    min-height: 500px;
+    width: 100%;
+    /* background-image: url("../images/Coffee_Beans/giphy3.gif"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
+    border: 2px solid rgb(92, 203, 13);
+
 }
 
+.containerid{
+
+    margin: 5% 10%;
+    min-height: 300px;
+    background-image: url("../images/Coffee_Beans/giphy5.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 50px 20px 100px 150px;
+
+}
+
+.about_coffe{
+    margin: 200px;
+    /* border: 2px solid yellow; */
+    min-height: 300px;
+    color: #895426;
+}
+
+.about_coffe h3{
+    font-size: 60px;
+    padding: 30px;
+    color: #f1f1f1;
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 /*
 #navbarTogglerDemo03{
@@ -274,11 +313,22 @@ img{
 }
 
 
-.footer{
+#footer{
     text-align: center;
-    height: 400px;
-    background-color: #d4af37;
+    height: 50px;
+    border: 2px solid rgb(92, 203, 13);
+    background-color: #4b3b02;
 }
 
+#footer p{
+    font-size: 18px;
+    color: #eef0ef;
+}
+
+#footer .Our_brand{
+    font-size: 36px;
+    font-family: 'Italianno', cursive;
+    color: #eef0ef;
+}
 
 
