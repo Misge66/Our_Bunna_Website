@@ -38,10 +38,16 @@ a{
     color: white;
     font-size: 23px;
     font-family: 'Italianno', cursive;
-    /* font-family: 'Lobster', cursive; */
+    
 }
 
-
+#logo img{
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 23px;
+    font-family: 'Italianno', cursive;
+}
 
 #navbarNav{
     background-image: linear-gradient(290deg, #eef0ef 50%, #3e2c2c 80%); 
