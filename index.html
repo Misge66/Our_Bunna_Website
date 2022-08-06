@@ -7,7 +7,7 @@
     <title>Bunna</title>
     <link rel="stylesheet" href="./resources/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Koulen&display=swap" rel="stylesheet"> 
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Righteous&display=swap" rel="stylesheet">
 
@@ -51,13 +51,12 @@
     <div class="introduce_coffe">
       <h1>We serve</h1>
       <h2><span class="brand">MisMahBunna</span>  is committed to positively impacting the quality of life through exceptional cup of coffee.</h2>
-      <!-- <h2>The smell of fresh-made coffee is one of the world's greatest inventions.</h2> -->
     </div>
     <div class="h-product-cont">
-      <div class="left_img">
+      <div class="left_img" data-aos="fade-right">
         <img src="./resources/images/Coffee_Beans/Marion_Berry_chocolate_truffle-removebg-preview.png" alt="">
       </div>
-      <div class="right_text">
+      <div class="right_text" data-aos="fade-left">
         <img src="./resources/images/Coffee_Beans/2b14e6f736f3b4b1838073c11a63fae2-removebg-preview.png" alt="">
          <!-- <h2>The smell of fresh-made coffee is one of the world's greatest inventions.</h2> -->
       </div>
@@ -67,15 +66,15 @@
       <h1>Our coffee</h1>
       <h2>We have carefully selected great tasting coffees from around the world.</h2>
       <div class="sample_product">
-        <img src="./resources/images/Coffee_Beans/aaaa.png" alt="">
-        <img src="./resources/images/Coffee_Beans/cof3-removebg-preview.png" alt="">
+        <img src="./resources/images/Coffee_Beans/aaaa.png" alt="" data-aos="fade-up-right">
+        <img src="./resources/images/Coffee_Beans/cof3-removebg-preview.png" alt="" data-aos="fade-up-left">
       </div>
       <button class="btn"><a href="products.html">View our Coffee</a></button>
     </div>
     </div>
     <div class="contact-container">
       <h2>Follow us on</h2>
-      <div class="contact-info" data-aos="fade-right" >
+      <div class="contact-info" data-aos="flip-up" >
         <a href="#"><i class="bi bi-facebook"></i></a>
           <a href="#"><i class="bi bi-instagram"></i></a>
           <a href="#"><i class="bi bi-twitter"></i></a>
@@ -95,30 +94,30 @@
   <script>
     AOS.init();
 
-// You can also pass an optional settings object
-// below listed default settings
-AOS.init({
-// Global settings:
-disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-initClassName: 'AOS-init', // class applied after initialization
-animatedClassName: 'AOS-animate', // class applied on animation
-useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+      // You can also pass an optional settings object
+      // below listed default settings
+      AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'AOS-init', // class applied after initialization
+      animatedClassName: 'AOS-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
 
-// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-offset: 120, // offset (in px) from the original trigger point
-delay: 100, // values from 0 to 3000, with step 50ms
-duration: 2600, // values from 0 to 3000, with step 50ms
-easing: 'ease', // default easing for AOS animations
-once: false, // whether animation should happen only once - while scrolling down
-mirror: false, // whether elements should animate out while scrolling past them
-anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 500, // values from 0 to 3000, with step 50ms
+      duration: 1600, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
-});
+      });
   </script>
 </body>
 </html>

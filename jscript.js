@@ -7,3 +7,4 @@ addToCart.style.color = 'black';
 }
 
 btn.addEventListener('mouseover', changeBackground);
+

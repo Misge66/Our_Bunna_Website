@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./resources/css/style.css">
   <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Koulen&display=swap" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
@@ -39,7 +40,7 @@
         <!-- Keyrewalehu Columns start at 50% wide on mobile and bump up to 25% wide on desktop  g-4 marg-->
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4">
-          <div class="col">
+          <div class="col" data-aos="fade-down">
             <div class="card">       
               <a href="#"><img class="card-img-top" src="resources/images/Coffee_Beans/product101.jpg" alt=""></a>
               <small class="add_to_cart cart"><a href="#">ADD TO CART</a></small><br>
@@ -72,7 +73,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <div class="card">   
               <a href="#"><img class="card-img-top" src="resources/images/Coffee_Beans/product101.jpg" alt=""></a>
               <small class="add_to_cart cart"><a href="#">ADD TO CART</a></small><br>
@@ -137,7 +138,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col"  data-aos="fade-up-right">
             <div class="card">   
               <a href="#"><img class="card-img-top" src="resources/images/Coffee_Beans/cof2.jpg" alt=""></a>
               <small class="add_to_cart cart"><a href="#">ADD TO CART</a></small><br>
@@ -176,7 +177,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="fade-up-left">
             <div class="card">   
               <a href="#"><img class="card-img-top" src="resources/images/Coffee_Beans/Marion Berry chocolate truffle.jpg" alt=""></a>
               <small class="add_to_cart cart"><a href="#">ADD TO CART</a></small><br>
@@ -204,5 +205,34 @@
 </div>
     <script src="./jscript.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+  
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'AOS-init', // class applied after initialization
+        animatedClassName: 'AOS-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+  
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 500, // values from 0 to 3000, with step 50ms
+        duration: 1600, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+  
+        });
+    </script>
   </body>
 </html>
